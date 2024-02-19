@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ObjectDefinitions\ObjectDefinitions.csproj" />
+    <ProjectReference Include="..\TestingBlazer\TestingBlazer.csproj" />
+  </ItemGroup>
+
 </Project>

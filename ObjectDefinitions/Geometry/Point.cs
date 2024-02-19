@@ -6,10 +6,19 @@ using System.Threading.Tasks;
 
 namespace ObjectDefinitions.Geometry
 {
-    internal class Point
+   public  class Point
     {
-        private int x { get; set; }
-        private int y { get; set; }
+
+        //Copilot: create constructor
+
+        public Point(int x, int y)
+        {
+            this.x = x;
+            this.y = y;
+        }
+
+        public int x { get; set; }
+        public int y { get; set; }
 
     }
 }
